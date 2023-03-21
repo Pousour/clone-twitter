@@ -1,0 +1,158 @@
+.t {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    border-bottom: solid 1px #2f3336;
+    overflow-wrap: break-word;
+    width: auto;
+}
+
+.t-img-wrapper{
+    position: relative;
+    min-width: 8%;
+}
+
+.t-img-wrapper img {
+    position: relative;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.t-main{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.t-main div{
+    position: relative;
+}
+
+.t-header-name{
+    position: relative;
+    display: flex;
+    width: 98%;
+}
+
+.t-header-name p{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.t-header-name p:nth-of-type(2), .t-header-name p:nth-of-type(3){
+    position: relative;
+    top: 50%;
+    font-size: 13px;
+    font-weight: 200;
+    transform: translateY(-50%);
+}
+
+.t-header-name i {
+    position: relative;
+    font-size: 7px;
+    height: 7px;
+    padding: 4px;
+    border-radius: 50%;
+    transition: all 300ms ease;
+    color: #757575;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.deleteTweet{
+    position: relative;
+    margin-left: auto;
+}
+
+.deleteTweet i{
+    position: relative;
+    font-size: 20px;
+    height: 20px;
+    padding: 4px;
+}
+
+.deleteTweet i:hover{
+    cursor: pointer;
+    background-color: #1d9cf025;
+    color: #37afff;
+}
+
+.t p {
+    font-size: 15px;
+    padding: 5px;
+}
+.t-content{
+    max-width: 100%;
+}
+
+.t-reacts{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    color: #505050;
+    margin-top: 10px;
+}
+
+.t-reacts-item{
+    position: relative;
+    display: flex;
+    padding: 8px;
+    width: auto;
+    height: 16px;
+    border-radius: 20px;
+    transition: all 500ms ease;
+}
+
+.reaction-active{
+    background-color: #1d9cf025;
+    color: #37afff;
+}
+
+.reaction-active-like{
+    background-color: #ff373723;
+    color: #ff3737;
+}
+
+.t-reacts-item i{
+    position: relative;
+    top: 50%;
+    height: auto;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.t-reacts-item p {
+    padding: 0;
+    padding-left: 5px;
+}
+
+.t-reacts-item:hover {
+    cursor: pointer;
+    background-color: #1d9cf025;
+    color: #37afff;
+}
+
+.t-reacts-item:hover:nth-of-type(3){
+    background-color: #ff373723;
+    color: #ff3737;
+}
+
+@media screen and (max-width: 540px) {
+    .t-main{
+        max-width: 85%;
+        max-width: 85%;
+    }
+
+    .t-header-name{
+        width: 100%;
+    }
+
+    .t-img-wrapper{
+        position: relative;
+        min-width: 12%;
+    }
+}

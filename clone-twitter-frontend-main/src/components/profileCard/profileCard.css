@@ -1,0 +1,84 @@
+.p-c{
+    position: absolute;
+    display: none;
+    min-width: 250px;
+    width: auto;
+    margin-left: 10px;
+    bottom: 15%;
+    border-radius: 20px;
+    background-color: #000000;
+    box-shadow: 0px 0px 8px 4px rgba(255,255,255,0.18);
+    -webkit-box-shadow: 0px 0px 8px 4px rgba(255,255,255,0.18);
+    -moz-box-shadow: 0px 0px 8px 4px rgba(255,255,255,0.18);
+    z-index: 2;
+}
+
+.p-c-wrapper{
+    position: relative;
+    display: flex;
+    border-bottom: 1px;
+    padding: 10px 10px 5px 10px;
+}
+
+.p-c-infos{
+    position: relative;
+    bottom: 50%;
+    font-size: 10px;
+}
+
+.p-c-infos p{
+    position: relative;
+    top: 13px;
+    margin: 0;
+    padding: 0 0 0 12px;
+}
+
+.p-c img{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+}
+
+.p-c img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.p-c-move{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.p-c-move p{
+    padding: 10px;
+    transform: none;
+}
+
+.p-c-item{
+    font-size: 15px;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.p-c-item:last-of-type{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.p-c-item:hover{
+    background-color: #2f3336;
+    cursor: pointer;
+}
+
+.p-c-name{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.p-c-id{
+    font-size: 15px;
+    opacity: 0.6;
+}

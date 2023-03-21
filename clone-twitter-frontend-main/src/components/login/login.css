@@ -1,0 +1,135 @@
+body, html, #root{
+    height: 100%;
+}
+.login{
+    position: relative;
+    color: white;
+    display: flex;
+    height: 100%;
+}
+
+.login-l{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.login-l-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.login-l i{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    font-size: 350px;
+    transform: translate(-50%, -50%);
+}
+
+.login-l img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+}
+
+.login-r {
+    position: relative;
+    width: 60%;
+    height: 100vh;
+}
+
+.login-r-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 40px;
+    height: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login-r i{
+    font-size: 45px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.login-r h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.login-form{
+    position: relative;
+    height: auto;
+}
+
+input {
+    color: white;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.login-form-buttom{
+    position: relative;
+    width: 100%;
+}
+
+.login button{
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 30px;
+    background: #1d9bf0;
+    border: none;
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.link{
+    margin-top: 120px;
+}
+
+button:hover{
+    background-color: #167abd;
+}
+
+.login span{
+    transition: all 0.2s ease;
+}
+
+.login span:hover{
+    color: #6ab4e6;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #1d9bf0;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .login-l {
+        display: none;
+    }
+    .login-r {
+        width: 100%;
+    }
+
+    .login-r-wrapper {
+        padding-top: 100px;
+        height: 100%;
+        width: 80%;
+    }
+}

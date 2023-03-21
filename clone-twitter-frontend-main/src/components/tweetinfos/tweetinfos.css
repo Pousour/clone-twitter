@@ -1,0 +1,26 @@
+.t-infos{
+    position: absolute;
+    height: auto;
+    right: 40px;
+    top: 30px;
+    background-color: #000000;
+    box-shadow: 0px 0px 8px 4px rgba(255,255,255,0.18);
+    -webkit-box-shadow: 0px 0px 8px 4px rgba(255,255,255,0.18);
+    -moz-box-shadow: 0px 0px 8px 4px rgba(255,255,255,0.18);
+    display: none;
+}
+
+.t-infos-item{
+    display: flex;
+    color: red;
+    padding: 5px;
+}
+
+.t-infos-item:hover {
+    background-color: #0e0e0e;
+    cursor: pointer;
+}
+
+.t-infos-item i{
+    padding: 5px 5px 0 5px;
+}

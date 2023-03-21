@@ -1,0 +1,35 @@
+.register {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.register p{
+    margin-top: 20px;
+}
+
+.register span{
+    transition: all 0.2s ease;
+}
+
+.register span:hover{
+    color: #6ab4e6;
+    cursor: pointer;
+}
+
+.login-form-input i{
+    position: relative;
+    font-size: 20px;
+    width: auto;
+    top: 4px;
+    padding-left: 10px;
+}
+
+.login-form-input i:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #1d9bf0;
+}

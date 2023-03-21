@@ -1,0 +1,43 @@
+.pp{
+    padding: 15px 15px 5px 15px;
+    position: relative;
+    width: 88%;
+    display: flex;
+    
+}
+
+.pp-text{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pp input{
+    position: relative;
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #000000;
+    color: white;
+    padding-bottom: 3px;
+}
+
+.pp input:focus{
+    outline: none;
+}
+
+.pp button{
+    position: relative;
+    background-color: #1d9bf0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.pp button:hover{
+    cursor: pointer;
+    background-color: #167abd;
+}

@@ -1,0 +1,48 @@
+.r-trending-item{
+    display: flex;
+    padding: 5px 15px 5px 15px;
+    transition: all 0.3s ease;
+}
+
+.r-trend-category{
+    font-size: 12px;
+    opacity: 0.5;
+    padding-bottom: 4px;
+}
+
+.r-trend-name{
+    font-weight: 500;
+    padding-bottom: 4px;
+}
+
+.r-trend-nb-tweets{
+    font-size: 12px;
+    opacity: 0.5;
+    display: flex;
+}
+
+.r-nb{
+    padding: 0 4px 0 0;
+}
+
+.r-trend-more-icon{
+    margin-top: 5px;
+    position: relative;
+    width: auto;
+    justify-content: flex-end;
+}
+
+.r-trend-more-icon i{
+    position: relative;
+    padding: 5px;
+    font-size: 18px;
+    left: 30%;
+    bottom: 20%;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+
+.r-trend-more-icon i:hover{
+    color: #1da1f2;
+    background-color: #1da0f211;
+}
