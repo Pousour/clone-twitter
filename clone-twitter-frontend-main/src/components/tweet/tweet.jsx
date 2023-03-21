@@ -47,8 +47,8 @@ const Tweet = ({name, content, nb, id, date, img1, img2, img3}) => {
 
     // check if actual user is same a tweet user
     const isActualUser = () => {
-      const temp = name.toLowerCase();
-      if (temp === user.username) {
+      const temp = name;
+      if (temp == user.username) {
         const ti = document.getElementsByClassName('t-infos')[parseInt(nb) - 1];
         if (ti.style.display === 'none') {
           ti.style.display = 'block';
@@ -206,7 +206,6 @@ const Tweet = ({name, content, nb, id, date, img1, img2, img3}) => {
     const parent = document.getElementsByClassName('m-tweet-media-img')[nb];
 
     if (imgs[0] === 'none') {
-      console.log(nb);
       document.getElementsByClassName('m-tweet-media')[nb].style.display = `none`;
     } else{
       for (let i = 0; i < imgs.length; i++) {
@@ -218,7 +217,7 @@ const Tweet = ({name, content, nb, id, date, img1, img2, img3}) => {
           img.classList.add('imgOfTweet');
           // create a div element to contain img
           const div = document.createElement('div');
-          div.classList.add('idImg');
+          div.classList.add('m-tweet-img-container');
           div.style.position = "relative";
           div.style.padding = "0 1px 0 1px";
           div.style.flex = "2";

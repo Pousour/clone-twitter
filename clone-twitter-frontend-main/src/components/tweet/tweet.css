@@ -5,11 +5,12 @@
     border-bottom: solid 1px #2f3336;
     overflow-wrap: break-word;
     width: auto;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .t-img-wrapper{
     position: relative;
-    min-width: 8%;
 }
 
 .t-img-wrapper img {
@@ -21,10 +22,10 @@
 }
 
 .t-main{
-    width: 90%;
     display: flex;
     flex-direction: column;
     padding-left: 10px;
+    flex-grow: 1;
 }
 
 .t-main div{

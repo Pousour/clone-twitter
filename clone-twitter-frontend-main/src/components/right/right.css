@@ -1,5 +1,4 @@
 .r{
-    height: 100%;
     border: solid 1px #2f3336;
     border-left: none;
     border-bottom: none;
@@ -15,7 +14,6 @@
     border-radius: 50px;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 10px;
 }
 
 .r-search-bar i{
@@ -25,7 +23,6 @@
     font-size: 20px;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
 }
 
 .r-search-bar input{

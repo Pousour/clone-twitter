@@ -70,6 +70,7 @@ const Middle = () => {
           }
           setTweetList(reversedTweetList);
           getAllTweets();
+
         } else {
           alert('Error');
         }
@@ -170,7 +171,7 @@ const Middle = () => {
               </div>
             </div>
             <div className="m-send-tweet">
-              <button className="m-send-tweet-button" onClick={() => {
+              <button className="m-send-tweet-button" onClick={async () => {
                 // get value of textarea
                 const tweetContent = document.getElementsByClassName('m-tweet-textarea-text')[0].value;
                 // if tweet is empty
@@ -178,6 +179,7 @@ const Middle = () => {
                   alert("Tweet cannot be empty");
                 } else {
                   submitTweet(tweetContent);
+                  getAllTweets()
                 }
               }}><p>Tweeter</p></button>
             </div>
